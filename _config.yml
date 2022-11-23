@@ -2,18 +2,18 @@
 title: Yurim
 description: 'Yurim'
 url: 'https://yurim6858.github.io'
-baseurl: ''
+baseurl: '/'
 profilepic: '/images/ㄱㄱ.jpg'
 bkimage: '/images/bk1.jpg'
 google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'
 
 author:
-  name: 'Thomas Zühlke'
-  email: info@thomas-zuehlke.de
+  name: 'yurim'
+  email: yurim6858@gmail.com
   twitter_username: thomzuehlke
 #  facebook_username: joshgerdes
-  github_username:  tzuehlke
+  github_username:  yurim6858
   linkedin_username:  thomas-zühlke-889182165
   meetup_name: Azure-Meetup-Rostock-MV
 
