@@ -13,12 +13,23 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	vertical-align: baseline; }
 
 /*yurim zone*/
-.fab, .far {
-    font-weight: 400;
+
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
 }
 
 .fab {
     font-family: "Font Awesome 5 Brands";
+}
+
+.fab, .far {
+    font-weight: 400;
 }
 
 .fa-lg {
@@ -33,16 +44,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .fa-envelope:before {
     font-family: "Font Awesome 5 Brands"; content: "\f099";
-}
-
-.fa, .fab, .fad, .fal, .far, .fas {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
 }
 
 /* HTML5 display-role reset for older browsers */
