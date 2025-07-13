@@ -20,10 +20,10 @@ h4 {
 }
 
 .logo-img {
-    width: 80px;        /* 로고 크기 조절 */
+    width: 80px;      
     height: auto;
-    border-radius: 50%; /* 원형 느낌 줄 수 있음 (선택사항) */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 부드러운 그림자 */
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .jumbotron {
     background-color:#5A3A2E;
@@ -85,6 +85,32 @@ h4 {
     color: #343a40;
     font-size: 200px;
 }
+.section-box {
+    margin: 100px auto;
+    padding: 60px 30px;
+    background-color: #F8F8F8;
+    color: #5A3A2E;
+    text-align: center;
+}
+
+.skill-category {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5A3A2E;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
 .thumbnail {
     padding: 0 0 15px 0;
     border: none;
@@ -99,54 +125,6 @@ h4 {
     height: auto;
     border-radius: 10px;
     margin-bottom: 10px;
-}
-.item h4 {
-    font-size: 19px;
-    line-height: 1.375em;
-    font-weight: 400;
-    font-style: italic;
-    margin: 70px 0;
-}
-.item span {
-    font-style: normal;
-}
-.panel {
-    border: 1px solid #343a40;
-    border-radius:0 !important;
-    transition: box-shadow 0.5s;
-}
-.panel:hover {
-    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
-}
-.panel-footer .btn:hover {
-    border: 1px solid #343a40;
-    background-color: #fff !important;
-    color: #343a40;
-}
-.panel-heading {
-    color: #fff !important;
-    background-color: #343a40 !important;
-    padding: 25px;
-    border-bottom: 1px solid transparent;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-.panel-footer {
-    background-color: white !important;
-}
-.panel-footer h3 {
-    font-size: 32px;
-}
-.panel-footer h4 {
-    color: #aaa;
-    font-size: 14px;
-}
-.panel-footer .btn {
-    margin: 15px 0;
-    background-color: #343a40;
-    color: #fff;
 }
 .navbar {
     margin-bottom: 0;
