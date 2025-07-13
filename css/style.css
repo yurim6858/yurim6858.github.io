@@ -8,14 +8,12 @@ h2 {
     text-transform: uppercase;
     color: #303030;
     font-weight: 600;
-    margin-bottom: 30px;
 }
 h4 {
     font-size: 19px;
     line-height: 1.375em;
     color: #303030;
     font-weight: 400;
-    margin-bottom: 30px;
 }
 .logo-wrapper {
     margin-bottom: 20px;
@@ -33,25 +31,33 @@ h4 {
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
 }
-.jumbotron > p{
+.jumbotron p{
     color:#f6f6f6;
 }
 #about {
     background-color: white;
     color: black;
-    padding: 80px 30px;
+    padding: 40px 30px;
     border-radius: 15px;
 
-    max-width: 960px;   /* 섹션 폭 제한 */
-    margin: 0 auto;     /* 가운데 정렬 */
+    max-width: 960px;
+    margin: 0 auto; 
 }
 #about .row {
-    margin-bottom: 40px;
+    margin-top:40px;-
 }
-
 #about .col-sm-4 {
     padding-left: 10px;
     padding-right: 10px;
+}
+#portfolio {
+    background-color: white;
+    color: black;
+    padding: 80px 30px;
+    border-radius: 15px;
+
+    max-width: 960px;
+    margin: 0 auto; 
 }
 .container-fluid {
     padding: 60px 100px;
@@ -84,9 +90,14 @@ h4 {
     border: none;
     border-radius: 0;
 }
+.thumbnail p{
+    color:black;
+}
 .thumbnail img {
     width: 100%;
-    height: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
     margin-bottom: 10px;
 }
 .item h4 {
